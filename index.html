@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angel Almanzar - Portfolio</title>
+  <style>
+
+    /* -- COLORS: Change these to customize your site -- */
+    :root {
+      --main-color: #2c3e50;
+      --accent-color: #3498db;
+      --light-bg: #f8f9fa;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 40px 24px;
+      color: #333;
+      line-height: 1.7;
+      background: #fff;
+    }
+    header {
+      border-bottom: 3px solid var(--accent-color);
+      padding-bottom: 20px;
+      margin-bottom: 40px;
+    }
+    header h1 { color: var(--main-color); margin: 0 0 8px 0; font-size: 28px; }
+    header p { color: #666; margin: 0; font-size: 15px; }
+    h2 {
+      color: var(--accent-color);
+      margin-top: 48px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e8e8e8;
+    }
+    h3 { color: var(--main-color); margin-top: 24px; }
+    .section { margin-bottom: 32px; }
+    a { color: var(--accent-color); }
+    .highlight-box {
+      background: var(--light-bg);
+      border-left: 4px solid var(--accent-color);
+      padding: 16px 20px;
+      margin: 16px 0;
+      border-radius: 0 8px 8px 0;
+    }
+    .job-title { font-weight: bold; }
+    .job-company { color: #666; }
+    .job-date { color: #888; font-size: 14px; }
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      list-style: none;
+      padding: 0;
+    }
+    .skills-list li {
+      background: var(--light-bg);
+      border: 1px solid #ddd;
+      padding: 4px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+    nav {
+      background: var(--light-bg);
+      padding: 12px 20px;
+      border-radius: 8px;
+      margin-bottom: 32px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Angel Almanzar</h1>
+    <p>CIS student at Northern Essex Community College interested in
+    programming, Linux administration, and cybersecurity</p>
+  </header>
+
+  <!-- NAVIGATION: These links jump to each section of your page -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#work-samples">Work Samples</a>
+    <a href="#resume">Resume</a>
+    <a href="#cover-letter">Cover Letter</a>
+  </nav>
+
+  <!-- ====== ABOUT SECTION ====== -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am a Computer Information Sciences student at Northern Essex
+    Community College. I have experience with Python programming,
+    Linux system administration, and data management. I am building
+    this portfolio to showcase my coursework and prepare for a career
+    in technology.</p>
+    <!-- ^^^ Edit the paragraph above to sound like you.
+         What are your goals? What excites you about tech? -->
+  </section>
+
+  <!-- ====== WORK SAMPLES ====== -->
+  <section id="work-samples" class="section">
+    <h2>Work Samples</h2>
+
+    <!-- SAMPLE 1: Your wind energy research paper -->
+    <h3>Wind Energy Research Paper</h3>
+    <div class="highlight-box">
+      <strong>Context:</strong> Research paper written for
+      CIS-199 (Cooperative Education for Technology), Spring 2026.
+      <!-- Change the sentence below to explain why you
+           picked this topic and what you learned. -->
+      I chose this topic because I wanted to explore how
+      renewable energy technology is shaping the future
+      of the power industry.
+    </div>
+
+    <!-- Paste your paper's paragraphs below. Each paragraph
+         goes inside its own <p> and </p> tags. Here are some
+         placeholder paragraphs to get you started. Replace
+         them with your actual paper. -->
+
+    <p>REPLACE THIS with your first paragraph (your introduction).</p>
+
+    <p>REPLACE THIS with your second paragraph.</p>
+
+    <p>REPLACE THIS with your third paragraph.</p>
+
+    <p>REPLACE THIS with your fourth paragraph.</p>
+
+    <p>REPLACE THIS with your conclusion paragraph.</p>
+
+    <!-- If you cited sources, list them here -->
+    <h4>Sources</h4>
+    <ul>
+      <li><a href="https://example.com">Source Title</a> - Author or
+      Publication Name</li>
+      <!-- Copy the <li>...</li> line above for each source -->
+    </ul>
+
+    <!-- SAMPLE 2 (optional): Your programming project -->
+    <h3>Programming for IT Project</h3>
+    <div class="highlight-box">
+      <strong>Context:</strong> Python project completed for
+      my Programming for IT course. This project helped me
+      develop my problem-solving skills and learn how to
+      write clean, functional code.
+      <!-- Edit the sentence above to describe what the
+           project actually does. -->
+    </div>
+    <p>REPLACE THIS with a description of your programming project.
+    What does it do? What did you learn from building it? What
+    would you do differently if you built it again?</p>
+
+  </section>
+
+  <!-- ====== RESUME ====== -->
+  <section id="resume" class="section">
+    <h2>Resume</h2>
+
+    <!-- CONTACT INFO -->
+    <p>
+      <strong>Angel Almanzar</strong><br>
+      youremail@email.com
+      <!-- Replace with your real email. You can also add
+           a LinkedIn link like this:
+           <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+      -->
+    </p>
+
+    <!-- EDUCATION -->
+    <h3>Education</h3>
+    <p>
+      <span class="job-title">Associate of Science,
+      Computer Information Sciences</span><br>
+      <span class="job-company">Northern Essex
+      Community College, Haverhill, MA</span><br>
+      <span class="job-date">Expected Graduation:
+      REPLACE with your expected grad date</span><br>
+      Relevant Coursework: Programming for IT,
+      Introduction to Linux, Introduction to Computer Science,
+      Data Management, Cooperative Education for Technology,
+      Linux Administration
+    </p>
+
+    <!-- SKILLS -->
+    <h3>Skills</h3>
+    <ul class="skills-list">
+      <li>Python</li>
+      <li>Linux Administration</li>
+      <li>Data Management</li>
+      <li>Microsoft Office</li>
+      <li>Technical Writing</li>
+      <li>Problem Solving</li>
+      <!-- Add or remove <li> items to match your real skills -->
+    </ul>
+
+    <!-- EXPERIENCE -->
+    <h3>Experience</h3>
+
+    <p>
+      <span class="job-title">REPLACE with Your Job Title</span><br>
+      <span class="job-company">REPLACE with Company Name,
+      City, MA</span><br>
+      <span class="job-date">REPLACE with Start Date -
+      End Date</span>
+    </p>
+    <ul>
+      <li>REPLACE with a responsibility or accomplishment
+      using an action verb</li>
+      <li>REPLACE with another accomplishment</li>
+    </ul>
+
+    <!-- If you don't have work experience yet, delete the
+         Experience section above and keep the Projects
+         section below. That's totally fine. -->
+
+    <!-- PROJECTS -->
+    <h3>Projects</h3>
+
+    <p>
+      <span class="job-title">Wind Energy Research Paper</span><br>
+      <span class="job-date">CIS-199, Spring 2026</span>
+    </p>
+    <ul>
+      <li>Researched wind energy technology and its role in
+      the renewable energy industry</li>
+      <li>REPLACE with another detail about what you did
+      or learned</li>
+    </ul>
+
+    <p>
+      <span class="job-title">Programming for IT Project</span><br>
+      <span class="job-date">Programming for IT Course, NECC</span>
+    </p>
+    <ul>
+      <li>REPLACE with a description of what your Python
+      project does</li>
+      <li>REPLACE with what you learned from the project</li>
+    </ul>
+
+    <p>
+      <span class="job-title">Personal Portfolio Website</span><br>
+      <span class="job-date">CIS-199, Spring 2026</span>
+    </p>
+    <ul>
+      <li>Designed and built a professional portfolio website
+      using HTML and CSS, published via GitHub Pages</li>
+      <li>Organized content into sections for work samples,
+      resume, and a targeted cover letter</li>
+    </ul>
+
+  </section>
+
+  <!-- ====== COVER LETTER ====== -->
+  <section id="cover-letter" class="section">
+    <h2>Cover Letter</h2>
+
+    <!-- This box tells the reader which job you're
+         applying for. Replace with your actual listing. -->
+    <div class="highlight-box">
+      <strong>Position:</strong> REPLACE with Job Title<br>
+      <strong>Company:</strong> REPLACE with Company Name
+      and Location<br>
+      <strong>Found on:</strong> REPLACE with Indeed, LinkedIn, etc.
+    </div>
+
+    <p>Dear Hiring Manager,</p>
+
+    <!-- OPENING: Say which job, where you found it,
+         and why the company interests you -->
+    <p>REPLACE THIS with your opening paragraph. State the
+    specific position you're applying for, where you found
+    the listing, and one sentence about why this company
+    interests you. Be specific about the company.</p>
+
+    <!-- BODY: Connect your skills to what they need -->
+    <p>REPLACE THIS with your body paragraph. Connect your
+    coursework, skills, and experience to what the job listing
+    asks for. Give specific examples. If the listing mentions
+    Linux skills, talk about your Linux Administration course.
+    If it mentions programming, talk about your Python project.</p>
+
+    <!-- CLOSING: Thank them and provide your contact info -->
+    <p>REPLACE THIS with your closing paragraph. Thank them,
+    restate your interest, and provide your email and
+    portfolio URL.</p>
+
+    <p>Sincerely,<br>
+    Angel Almanzar</p>
+
+  </section>
+
+</body>
+</html>
