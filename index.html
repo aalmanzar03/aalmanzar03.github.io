@@ -8,9 +8,12 @@
 
     /* -- COLORS: Change these to customize your site -- */
     :root {
-      --main-color: #2c3e50;
-      --accent-color: #3498db;
-      --light-bg: #f8f9fa;
+      --main-color: #ffffff;
+      --accent-color: #5b9cf5;
+      --light-bg: #181a21;
+
+      --body-bg: #0f1117;
+      --text-blue: #e4e4e8; /* added lines */
       
     }
     body {
@@ -18,9 +21,11 @@
       max-width: 850px;
       margin: 0 auto;
       padding: 40px 24px;
-      color: #333;
+      /*color: #333;*/
       line-height: 1.7;
-      background: #fff;
+      /*background: #fff;*/
+      background-color: var(--body-bg); /* added lines */
+      color: var(--text-blue);
     }
     header {
       border-bottom: 3px solid var(--accent-color);
@@ -33,7 +38,7 @@
       color: var(--accent-color);
       margin-top: 48px;
       padding-bottom: 8px;
-      border-bottom: 2px solid #e8e8e8;
+      border-bottom: 2px solid #2a2d38; /*#e8e8e8;*/
     }
     h3 { color: var(--main-color); margin-top: 24px; }
     .section { margin-bottom: 32px; }
