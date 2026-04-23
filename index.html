@@ -8,12 +8,11 @@
 
     /* -- COLORS: Change these to customize your site -- */
     :root {
-      --main-color: #ffffff;
-      --accent-color: #5b9cf5;
-      --light-bg: #181a21;
-
-      --body-bg: #0f1117;
-      --text-blue: #e4e4e8; /* added lines */
+      --main-color: #ffffff; /* Changed to pure white text for a black background as it makes it easier to see for me and the viewer. Instead of having dark on light.*/
+      --accent-color: #5b9cf5; /* light blue color used for links etc. */
+      --light-bg: #181a21; /* dark blue/black color for the background and boxes used for the site. */
+      --body-bg: #0f1117; /* black color used for the background of the site. */
+      --text-blue: #e4e4e8; /* off white color for paragraph text. */
       
     }
     body {
@@ -21,24 +20,24 @@
       max-width: 850px;
       margin: 0 auto;
       padding: 40px 24px;
-      /*color: #333;*/
+      /*color: #333; original color*/
       line-height: 1.7;
-      /*background: #fff;*/
-      background-color: var(--body-bg); /* added lines */
-      color: var(--text-blue);
+      /*background: #fff; original color*/
+      background-color: var(--body-bg); /* makes the dark background color. */
+      color: var(--text-blue); /* making the off white color and adding it to the site text */
     }
     header {
-      border-bottom: 3px solid var(--accent-color);
-      padding-bottom: 20px;
+      border-bottom: 3px solid var(--accent-color); 
+      padding-bottom: 20px; 
       margin-bottom: 40px;
     }
-    header h1 { color: var(--main-color); margin: 0 0 8px 0; font-size: 28px; }
+    header h1 { color: var(--main-color); margin: 0 0 8px 0; font-size: 28px; } /* Makes name and other text white */ /* spacing below name written, and sizing of name. */
     header p { color: #ffffff; opacity: 1; margin: 0; font-size: 15px; }
     h2 {
       color: var(--accent-color);
       margin-top: 48px;
       padding-bottom: 8px;
-      border-bottom: 2px solid #2a2d38; /*#e8e8e8;*/ /* added line */
+      border-bottom: 2px solid #2a2d38; /*#e8e8e8;*/ /* original line */
     }
     h3 { color: var(--main-color); margin-top: 24px; }
     .section { margin-bottom: 32px; }
@@ -50,11 +49,11 @@
       margin: 16px 0;
       border-radius: 0 8px 8px 0;
     }
-    /*.job-title { font-weight: bold; }*/
+    /*.job-title { font-weight: bold; } original line */
     .job-title { font-weight: bold; color: var (--main-color); }
-    /*.job-company { color: #666; }*/
+    /*.job-company { color: #666; } original line */
     .job-company { color: var (--text-blue); opacity: 0.8; }
-    /*.job-date { color: #888; font-size: 14px; }*/
+    /*.job-date { color: #888; font-size: 14px; } original line */
     .job-date { color: var (--text-blue); opacity: 0.6; font-size: 14px; }
     
     .skills-list {
@@ -71,17 +70,17 @@
       padding: 4px 14px;
       border-radius: 20px;
       font-size: 14px;
-      color: var (--text-blue); /* added line */
+      color: var (--text-blue); /* makes the skill text white. */
     }
     nav {
       background: var(--light-bg);
       padding: 12px 20px;
       border-radius: 8px;
       margin-bottom: 32px;
-      border: 1px solid #2a2d38; /* added line */
+      border: 1px solid #2a2d38; /* dark border, for menu bar. */
     }
     nav a {
-      color: var(--accent-color); /* added line */
+      color: var(--accent-color); /* menu links turned blue. */
       margin-right: 20px;
       text-decoration: none;
       font-weight: 600;
